@@ -1,0 +1,46 @@
+{
+  "evaluation_v3_two_tier": {
+    "warning": {
+      "pointwise": {
+        "tp": 197,
+        "fp": 2638,
+        "fn": 761,
+        "tn": 35769,
+        "accuracy": 0.9136542613997206,
+        "precision": 0.06948853615520283,
+        "recall": 0.2056367432150313,
+        "specificity": 0.931314604108626,
+        "f1": 0.10387556024255208,
+        "balanced_accuracy": 0.5684756736618286
+      },
+      "window_based": {
+        "window_hits": 8,
+        "window_total": 25,
+        "window_recall": 0.32,
+        "predicted_windows": 172,
+        "window_precision": 0.046511627906976744
+      }
+    },
+    "critical": {
+      "pointwise": {
+        "tp": 11,
+        "fp": 29,
+        "fn": 947,
+        "tn": 38378,
+        "accuracy": 0.9752064016258097,
+        "precision": 0.275,
+        "recall": 0.011482254697286013,
+        "specificity": 0.9992449293097613,
+        "f1": 0.022044088176352703,
+        "balanced_accuracy": 0.5053635920035237
+      },
+      "window_based": {
+        "window_hits": 2,
+        "window_total": 25,
+        "window_recall": 0.08,
+        "predicted_windows": 7,
+        "window_precision": 0.2857142857142857
+      }
+    }
+  }
+}

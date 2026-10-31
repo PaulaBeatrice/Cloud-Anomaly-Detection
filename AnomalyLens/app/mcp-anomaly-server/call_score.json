@@ -1,0 +1,1 @@
+{ "jsonrpc":"2.0", "id": 10, "method":"tools/call", "params": { "name":"score_file", "arguments": { "inputKey":"incoming/input_v3_sample.csv" } } }

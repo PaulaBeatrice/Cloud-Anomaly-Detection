@@ -1,0 +1,6 @@
+aws_region        = "eu-central-1"
+instance_type     = "t3.micro"
+telemetry_bucket  = "mcp-anomaly-telemetry-20260504-a7f3"
+ui_origin         = "https://d2scjv2qknufnr.cloudfront.net"
+app_bundle_s3_key = "deploy/backend_bundle.tar.gz"
+admin_cidr        = "82.77.155.162/32"

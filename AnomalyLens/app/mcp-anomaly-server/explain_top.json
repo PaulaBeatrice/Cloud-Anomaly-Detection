@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 20,
+  "method": "tools/call",
+  "params": {
+    "name": "explain_top",
+    "arguments": {
+      "scoredKey": "scored/input_v3_sample-scored.csv",
+      "k": 5
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "evaluation": {
+    "pointwise": {
+      "tp": 6,
+      "fp": 270,
+      "fn": 952,
+      "tn": 38137,
+      "accuracy": 0.9689571954782167,
+      "precision": 0.021739130434782608,
+      "recall": 0.006263048016701462,
+      "specificity": 0.9929700315046737,
+      "f1": 0.009724473257698542,
+      "balanced_accuracy": 0.49961653976068754
+    },
+    "window_based": {
+      "window_hits": 3,
+      "window_total": 25,
+      "window_recall": 0.12,
+      "predicted_windows": 75,
+      "window_precision": 0.013333333333333334
+    }
+  },
+  "evaluation_v2_two_tier": {
+    "warning": {
+      "pointwise": {
+        "tp": 41,
+        "fp": 1928,
+        "fn": 917,
+        "tn": 36479,
+        "accuracy": 0.9277276768703163,
+        "precision": 0.020822752666328086,
+        "recall": 0.04279749478079332,
+        "specificity": 0.9498008175592991,
+        "f1": 0.028015032456440044,
+        "balanced_accuracy": 0.4962991561700462
+      },
+      "window_based": {
+        "window_hits": 7,
+        "window_total": 25,
+        "window_recall": 0.28,
+        "predicted_windows": 300,
+        "window_precision": 0.05
+      }
+    },
+    "critical": {
+      "pointwise": {
+        "tp": 3,
+        "fp": 37,
+        "fn": 955,
+        "tn": 38370,
+        "accuracy": 0.9747999491934459,
+        "precision": 0.075,
+        "recall": 0.003131524008350731,
+        "specificity": 0.9990366339469368,
+        "f1": 0.006012024048096192,
+        "balanced_accuracy": 0.5010840789776437
+      },
+      "window_based": {
+        "window_hits": 3,
+        "window_total": 25,
+        "window_recall": 0.12,
+        "predicted_windows": 15,
+        "window_precision": 0.06666666666666667
+      }
+    }
+  }
+}

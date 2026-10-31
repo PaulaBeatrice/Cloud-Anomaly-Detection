@@ -1,0 +1,13 @@
+﻿{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "critPercentile":  99.9,
+                                     "inputKey":  "incoming/input_v3_sample_test2.csv",
+                                     "warnPercentile":  92.5
+                                 },
+                   "name":  "score_file"
+               },
+    "id":  10,
+    "jsonrpc":  "2.0"
+}

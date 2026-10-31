@@ -1,0 +1,23 @@
+{
+  "evaluation": {
+    "pointwise": {
+      "tp": 6,
+      "fp": 388,
+      "fn": 952,
+      "tn": 38019,
+      "accuracy": 0.9659596087895338,
+      "precision": 0.015228426395939087,
+      "recall": 0.006263048016701462,
+      "specificity": 0.9898976749030125,
+      "f1": 0.008875739644970413,
+      "balanced_accuracy": 0.49808036145985696
+    },
+    "window_based": {
+      "window_hits": 3,
+      "window_total": 25,
+      "window_recall": 0.12,
+      "predicted_windows": 141,
+      "window_precision": 0.0070921985815602835
+    }
+  }
+}

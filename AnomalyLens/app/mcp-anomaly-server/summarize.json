@@ -1,0 +1,12 @@
+﻿{
+  "jsonrpc":"2.0",
+  "id":31,
+  "method":"tools/call",
+  "params":{
+    "name":"summarize_scored",
+    "arguments":{
+      "scoredKey":"scored/input_test_ui-scored.csv",
+      "k":10
+    }
+  }
+}

@@ -1,0 +1,6 @@
+https://d2scjv2qknufnr.cloudfront.net
+https://d2scjv2qknufnr.cloudfront.net/some/route
+
+cand modific ui
+npm run build
+si terraform apply
